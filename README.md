@@ -3,8 +3,8 @@ Nodeschool Dallas
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
-<strong>OUR FIRST MEETUP JAN 28th!</strong>
+![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)<br/>
+<strong>OUR FIRST MEETUP JAN 28th!</strong><br/>
 <strong>http://www.meetup.com/Nodeschool-Dallas/events/218168772/</strong>
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
