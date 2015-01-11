@@ -10,7 +10,7 @@ NodeSchool is an open source project run by volunteers with two goals: to create
 
 <strong>http://nodeschool.io/</strong>
 
-![Nodeschool Dallas logo](https://raw.githubusercontent.com/leongaban/dallas/master/nodeschool-dallas.png)
+![Nodeschool Dallas logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/nodeschool-dallas.png)
 
 What's a NodeSchool?
 ------
