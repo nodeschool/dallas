@@ -2,7 +2,6 @@ Nodeschool Dallas
 ======
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/leongaban/nodedallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-Dallas chapter website: http://nodedallas.io/ (We love the MEAN stack http://mean.io/)
 
 <strong>OUR FIRST MEETUP JAN 28th! http://www.meetup.com/Nodeschool-Dallas/events/218168772/</strong>
 
