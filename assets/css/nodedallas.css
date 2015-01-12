@@ -1,0 +1,693 @@
+/*=================================================================
+Nodeschool Dallas Master Stylesheet
+http://nodedallas.io | http://nodeschool.io
+@leongaban @paulinhorocha
+===================================================================
+
+stylesheets/
+|
+|-- modules/            	    # Partials
+|   |-- _reset       	    	# Reset
+|   |-- _base           	    # Imports all the modules
+|   	|-- _animation      	    # CSS animations
+|   	|-- _colors         	    # Colors
+|   	|-- _fonts          	    # Fonts
+|   	|-- _mixins         	    # Imports all mixins & global vars
+|   |-- _defaults       	    # Global Defaults
+|   |-- _inputs         	    # Input styles
+|   |-- _icons          	    # Icons styles
+|   |-- _layout         	    # Layout Views for Unauthenticated
+|   	|-- header
+|   	|-- footer
+|   	...
+|
+|   |-- _png					# not built yet, needed for older browsers
+|   |-- _queries
+|
+|-- vendors/            	    # CSS or from other projects
+|   |-- _normalize      	    # http://necolas.github.io/normalize.css
+|   ...
+|
+`-- nodedallas					# Primary Sass file
+*/
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\000039}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000319}}
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000330}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000350}}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000363}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000373}}
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000385}}
+a {
+  background: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\0000393}}
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003105}}
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003113}}
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003122}}
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003131}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003140}}
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003149}}
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003157}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003165}}
+sup {
+  top: -0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003169}}
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003180}}
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003188}}
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003199}}
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003207}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003217}}
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003225}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003248}}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003262}}
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8+, and Opera
+ * Correct `select` style inheritance in Firefox.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003273}}
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003286}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003298}}
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003307}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003318}}
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003330}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003342}}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003353}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003366}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003375}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003386}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003395}}
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003404}}
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003415}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/vendors\/normalize\.scss}line{font-family:\00003420}}
+td,
+th {
+  padding: 0; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\000036}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\0000327}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\0000329}}
+body {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\0000330}}
+ol, ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\0000331}}
+blockquote, q {
+  quotes: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\0000332}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/reset\.scss}line{font-family:\0000334}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* PIXELS to EM */
+/* TRIANGLE */
+/* FROM BOURBON */
+/* FLEXBOX */
+/* COLORS
+====================================================
+==================================================== */
+/* FONTS
+====================================================
+==================================================== */
+/* APP ANIMATIONS
+====================================================
+==================================================== */
+/* START OF ATT FOUNDRY STYLES | DEFAULTS
+====================================================
+==================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\000038}}
+html, body {
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000310}}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  overflow-x: hidden;
+  color: #fff;
+  background: #f7f7f7;
+  background: #7d3d98; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000319}}
+.container {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000321}}
+.hello {
+  margin: 5% auto;
+  width: 360px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000326}}
+.logo {
+  margin: 20px 0;
+  -webkit-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000330}}
+  .logo:hover {
+    transform: rotate(360deg); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000335}}
+h1, h2 {
+  font-weight: 900;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000340}}
+h1 {
+  font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000342}}
+h2 {
+  font-size: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000345}}
+.message_block p {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000348}}
+.message_block a {
+  color: #F9A962;
+  text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000352}}
+  .message_block a:hover {
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000358}}
+.code_block {
+  width: 340px;
+  height: 70px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000364}}
+  .code_block:hover {
+    cursor: text;
+    background: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000369}}
+  .code_block p {
+    position: absolute;
+    padding: 12px 20px;
+    width: 360px;
+    height: 80px;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #ccc;
+    -webkit-transition: letter-spacing 0.4s ease-in-out;
+    -ms-transition: letter-spacing 0.4s ease-in-out;
+    -o-transition: letter-spacing 0.4s ease-in-out;
+    transition: letter-spacing 0.4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000381}}
+    .code_block p em {
+      font-family: 'Source Code Pro', sans-serif;
+      font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000386}}
+    .code_block p:hover {
+      letter-spacing: .5px;
+      color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\0000393}}
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 1.5em;
+  color: #333;
+  font-size: 0.875em;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003104}}
+  footer p {
+    margin: 0 auto;
+    width: 360px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003109}}
+  footer a {
+    font-weight: 700;
+    color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003112}}
+    footer a:hover {
+      color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003119}}
+::-webkit-scrollbar {
+  width: 12px; }
+
+/* Track */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003122}}
+::-webkit-scrollbar-track {
+  background: #ebebeb; }
+
+/* Handle */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003125}}
+::-webkit-scrollbar-thumb {
+  background: #994fb9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/leongaban\/Projects\/Node\/nodedallas\/src\/sass\/modules\/defaults\.scss}line{font-family:\00003126}}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #994fb9; }
+
+/* INPUTS & SELECTS
+====================================================
+==================================================== */
+/*  ICONS
+====================================================
+==================================================== */
+/* LAYOUTS
+====================================================
+==================================================== */
+/* HEADER STYLES
+====================================================
+==================================================== */
+/* FOOTER STYLES
+====================================================
+==================================================== */
+/*  SVG background images
+====================================================
+==================================================== */
+/*  SVG background images
+====================================================
+==================================================== */
+/*  RESPONSIVE MEDIA QUERIES
+====================================================
+==================================================== */
+/* 1600
+==================================================== */
+/* 1400
+==================================================== */
+/* 1300
+==================================================== */
+/* 1260
+==================================================== */
+/* 1200
+==================================================== */
+/* 1100
+==================================================== */
+/* 1000
+==================================================== */
+/* 990
+==================================================== */
+/* 900
+==================================================== */
+/* 850
+==================================================== */
+/* 800
+==================================================== */
+/* 768 (Mobile Break)
+==================================================== */
+/* 740
+==================================================== */
+/* 640
+==================================================== */
+/* 600
+==================================================== */
+/* 500
+==================================================== */
+/* 400
+==================================================== */
+/* 360
+==================================================== */
