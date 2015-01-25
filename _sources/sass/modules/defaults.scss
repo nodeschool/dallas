@@ -54,7 +54,10 @@ h2 { font-size: em(24); }
 
 .message_block {
 	margin-top: 40px;
-	p { text-align: center; }
+	p { 
+		margin: 0 0 40px 0;
+		text-align: center;
+	}
 	a {
 		padding: 10px 20px;
 		color: white;
