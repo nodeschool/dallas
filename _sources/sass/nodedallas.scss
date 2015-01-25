@@ -1,0 +1,45 @@
+/*=================================================================
+Nodeschool Dallas Master Stylesheet
+http://nodedallas.io | http://nodeschool.io
+@leongaban @paulinhorocha
+===================================================================
+
+stylesheets/
+|
+|-- modules/            	    # Partials
+|   |-- _reset       	    	# Reset
+|   |-- _base           	    # Imports all the modules
+|   	|-- _animation      	    # CSS animations
+|   	|-- _colors         	    # Colors
+|   	|-- _fonts          	    # Fonts
+|   	|-- _mixins         	    # Imports all mixins & global vars
+|   |-- _defaults       	    # Global Defaults
+|   |-- _inputs         	    # Input styles
+|   |-- _icons          	    # Icons styles
+|   |-- _layout         	    # Layout Views for Unauthenticated
+|   	|-- header
+|   	|-- footer
+|   	...
+|
+|   |-- _png					# not built yet, needed for older browsers
+|   |-- _queries
+|
+|-- vendors/            	    # CSS or from other projects
+|   |-- _normalize      	    # http://necolas.github.io/normalize.css
+|   ...
+|
+`-- nodedallas					# Primary Sass file
+*/
+
+
+@import "vendors/normalize"; 	// Normalize stylesheet
+@import "modules/reset";		// Reset stylesheet
+@import "modules/base";			// Load base files
+@import "modules/defaults";		// Defaults
+@import "modules/inputs";		// Inputs & Selects
+// @import "modules/tables";		// Tables
+@import "modules/icons";		// Icons
+@import "modules/layout";		// Load Layouts
+@import "modules/svg";			// Load SVG
+@import "modules/png";			// Load PNG
+@import "modules/queries";		// Media Queries
