@@ -26,6 +26,7 @@ canvas {
 .container {
 	width: 100%;
 	position: relative;
+	text-align: center;
 	z-index: 2;
 }
 
@@ -54,10 +55,7 @@ h2 { font-size: em(24); }
 
 .message_block {
 	margin-top: 40px;
-	p { 
-		margin: 0 0 40px 0;
-		text-align: center;
-	}
+	p {  margin: 0 0 40px 0; }
 	a {
 		padding: 10px 20px;
 		color: white;
@@ -65,13 +63,12 @@ h2 { font-size: em(24); }
 		background: #333;
 		@include rounded(6px);
 
-		&:hover {
-			text-decoration: none;
-		}
+		&:hover { text-decoration: none; }
 	}
 }
 
 .code_block {
+	margin-top: 20px;
 	width: 340px;
 	height: 70px;
 	@include rounded(6px);
@@ -79,7 +76,10 @@ h2 { font-size: em(24); }
 
 	&:hover {
 		cursor: text;
-		background: #333;
+	}
+
+	h2 {
+		font-size: em(20);
 	}
 
 	p {
@@ -127,6 +127,15 @@ footer {
 		color: #333;
 		&:hover { color: #fff; }
 	}
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
