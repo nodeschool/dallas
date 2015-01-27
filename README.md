@@ -20,7 +20,7 @@ What's a NodeSchool?
 
 
 
-![Nodeschool](https://raw.githubusercontent.com/leongaban/nodedallas/master/assets/images/nodeschool-logo.png)
+![Nodeschool](https://raw.githubusercontent.com/nodeschool/dallas/master/assets/images/nodeschool-logo.png)
 
 ###More about NodeSchool
 * NodeUp Podcast discussing NodeSchool: http://nodeup.com/
@@ -28,7 +28,7 @@ What's a NodeSchool?
 
 
 
-![Nodes logo](https://raw.githubusercontent.com/leongaban/nodedallas/master/assets/images/node-logo.png)
+![Nodes logo](https://raw.githubusercontent.com/nodeschool/dallas/master/assets/images/node-logo.png)
 
 Get Node Up and Running
 ------
