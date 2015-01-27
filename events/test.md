@@ -1,0 +1,4 @@
+##Attendance
+- [ ] Michael
+- [ ] Sam
+- [ ] Steve
