@@ -45,3 +45,17 @@ General Resources:
 * Node.js API documentation: http://nodejs.org/api/
 * Mozilla Developer Network (JavaScript documentation): https://developer.mozilla.org/en-US/
 * npm: https://www.npmjs.org/
+
+Attendance
+------
+* Sign into Github or sign up if you haven't already!
+* Find the file with today's date in [this project's events folder](events/) and click to view it
+* Press the edit button in the top right corner of the document's header (pencil icon)
+* Find your name under the Attendance section
+   * If you don't see your name, add it!
+   * Feel free to change the way your name appears!
+   * Keep the list in alphabetical order!
+* Change the `[ ]` next to your name to `[x]` to indicate that you are here!
+* Scroll down and click Propose file change
+* On the next page, leave us a nice comment if you'd like, and then click Create pull request
+* Congratulations! Your attendance at Nodeschool has been noted and you will be added to the Nodeschool Dallas team shortly!
