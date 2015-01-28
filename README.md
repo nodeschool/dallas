@@ -49,12 +49,12 @@ General Resources:
 Attendance Tracking:
 ------
 * Sign into Github or sign up if you haven't already!
-* Find the file with today's date under this project's events folder and click to view it
+* Find the file with today's date in [this project's events folder](events/01-28-2015.md) and click to view it
 * Press the edit button in the top right corner of the document's header (pencil icon)
 * Find your name under the Attendance section
-   * Keep the list in alphabetical order
    * If you don't see your name, add it!
    * Feel free to change the way your name appears!
+   * Keep the list in alphabetical order!
 * Change the `[ ]` next to your name to `[x]` to indicate that you are here!
-* Now just scroll down, leave us a nice comment if you'd like, and click Propose file change
+* Scroll down, leave us a nice comment if you'd like, and click Propose file change
 * Congratulations! Your attendance at Nodeschool has been noted and you will be added to the Nodeschool Dallas team shortly!
