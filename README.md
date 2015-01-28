@@ -49,7 +49,7 @@ General Resources:
 Attendance Tracking:
 ------
 * Sign into Github or sign up if you haven't already!
-* Find the file with today's date in [this project's events folder](events/01-28-2015.md) and click to view it
+* Find the file with today's date in [this project's events folder](events/) and click to view it
 * Press the edit button in the top right corner of the document's header (pencil icon)
 * Find your name under the Attendance section
    * If you don't see your name, add it!
