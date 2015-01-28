@@ -46,7 +46,7 @@ General Resources:
 * Mozilla Developer Network (JavaScript documentation): https://developer.mozilla.org/en-US/
 * npm: https://www.npmjs.org/
 
-Attendance Tracking:
+Attendance
 ------
 * Sign into Github or sign up if you haven't already!
 * Find the file with today's date in [this project's events folder](events/) and click to view it
