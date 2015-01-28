@@ -56,5 +56,6 @@ Attendance
    * Feel free to change the way your name appears!
    * Keep the list in alphabetical order!
 * Change the `[ ]` next to your name to `[x]` to indicate that you are here!
-* Scroll down, leave us a nice comment if you'd like, and click Propose file change
+* Scroll down and click Propose file change
+* On the next page, leave us a nice comment if you'd like, and then click Create pull request
 * Congratulations! Your attendance at Nodeschool has been noted and you will be added to the Nodeschool Dallas team shortly!
