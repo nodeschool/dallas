@@ -44,29 +44,6 @@ canvas {
 	}
 }
 
-h1, h2 {
-	font-weight: 900;	
-	text-align: center;
-}
-
-h1 { font-size: em(32); }
-
-h2 { font-size: em(24); }
-
-.message_block {
-	margin-top: 40px;
-	p {  margin: 0 0 40px 0; }
-	a {
-		padding: 10px 20px;
-		color: white;
-		text-decoration: underline;
-		background: #333;
-		@include rounded(6px);
-
-		&:hover { text-decoration: none; }
-	}
-}
-
 .code_block {
 	margin-top: 20px;
 	width: 340px;

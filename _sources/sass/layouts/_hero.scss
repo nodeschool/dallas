@@ -1,0 +1,25 @@
+#slice_hero {
+	margin-top: 0;
+	width: 100%;
+    height: 100%;
+    height: 600px;
+    background: url('../imgs/hero.jpg');
+	background-size: cover;
+}
+
+.hero_badge {
+	float: right;
+	margin-top: 100px;
+	width: 600px;
+	height: 135px;
+
+	h1 {
+		font-weight: 900;
+	}
+
+	h2 {
+		margin-top: 10px;
+		font-weight: 700;
+		font-size: em(20);
+	}
+}

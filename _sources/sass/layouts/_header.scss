@@ -1,3 +1,29 @@
 /* HEADER STYLES
 ====================================================
 ==================================================== */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	&:hover { color: #fff; }
+
+	em {
+		position: relative;
+		top: 10px;
+	}
+}
+
+.navbar-brand {
+	float: left;
+	padding: 15px 15px;
+	font-size: 18px;
+	width: 180px;
+	position: relative;
+}
+
+.container > .navbar-header {
+	margin-left: 20px;
+}
