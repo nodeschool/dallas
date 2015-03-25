@@ -4,8 +4,8 @@ Nodeschool Dallas
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)<br/>
-<strong>OUR FIRST MEETUP JAN 28th!</strong><br/>
-<strong>http://www.meetup.com/Nodeschool-Dallas/events/218168772/</strong>
+<strong>NEXT MEETUP FEB 25th</strong><br/>
+<strong>http://www.meetup.com/Nodeschool-Dallas/events/219510511/</strong>
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
@@ -49,13 +49,7 @@ General Resources:
 Attendance
 ------
 * Sign into Github or sign up if you haven't already!
-* Find the file with today's date in [this project's events folder](events/) and click to view it
-* Press the edit button in the top right corner of the document's header (pencil icon)
-* Find your name under the Attendance section
-   * If you don't see your name, add it!
-   * Feel free to change the way your name appears!
-   * Keep the list in alphabetical order!
-* Change the `[ ]` next to your name to `[x]` to indicate that you are here!
-* Scroll down and click Propose file change
-* On the next page, leave us a nice comment if you'd like, and then click Create pull request
-* Congratulations! Your attendance at Nodeschool has been noted and you will be added to the Nodeschool Dallas team shortly!
+* Navigate to [this project's issues list](https://github.com/nodeschool/dallas/issues)
+* Find the issue containing today's attendance
+* Leave us a nice comment to indicate that you are here!
+* Congratulations! Your attendance at Nodeschool has been noted!
