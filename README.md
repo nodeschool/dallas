@@ -3,14 +3,11 @@ Nodeschool Dallas
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)<br/>
-<strong>NEXT MEETUP August 26th</strong><br/>
-Promises
-<strong>http://www.meetup.com/Nodeschool-Dallas/events/219510542/</strong>
+![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
 
-<strong>NEXT NEXT MEETUP September 23rd</strong><br/>
-Scopes, Chains and Closures
-<strong>http://www.meetup.com/Nodeschool-Dallas/events/219510546/</strong>
+__NEXT MEETUP [October 28th](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Workshopper TBD
+
+__NEXT NEXT MEETUP [November ??](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Happy Thanksgiving!
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
