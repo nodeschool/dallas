@@ -5,7 +5,7 @@ Nodeschool Dallas
 
 ![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
 
-__NEXT MEETUP [October 28th](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Workshopper TBD
+__NEXT MEETUP [October 28th](http://www.meetup.com/Nodeschool-Dallas/events/219510552/)__ Workshopper TBD
 
 __NEXT NEXT MEETUP [November ??](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Happy Thanksgiving!
 
