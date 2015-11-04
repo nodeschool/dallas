@@ -5,9 +5,9 @@ Nodeschool Dallas
 
 ![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
 
-__NEXT MEETUP [October 28th](http://www.meetup.com/Nodeschool-Dallas/events/219510552/)__ Workshopper TBD
+__NEXT MEETUP [November 4th](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Functional Javascript Part 1
 
-__NEXT NEXT MEETUP [November ??](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Happy Thanksgiving!
+__NEXT NEXT MEETUP [December 2nd](http://www.meetup.com/Nodeschool-Dallas/events/226080835/)__ Functional Javascript Part 2
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
