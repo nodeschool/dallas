@@ -25,7 +25,7 @@ We have cheekily defined levels of hosting/sponsorhip along the Higher Education
 #### Graduate Level
 - All of the Undergrad benefits
 - Add your branding / logo to sponsor section
-- Brief message from you in the sponsor section of the meetup event ((example)[http://www.meetup.com/Nodeschool-Dallas/events/226080835/])and github meeting notes ([example](https://github.com/nodeschool/dallas/blob/gh-pages/events/2015-11-04.md#tonights-sponsor)) (can include links)
+- Brief message from you in the sponsor section of the meetup event ([example](http://www.meetup.com/Nodeschool-Dallas/events/226080835/))and github meeting notes ([example](https://github.com/nodeschool/dallas/blob/gh-pages/events/2015-11-04.md#tonights-sponsor)) (can include links)
 - Brief message from you in the meetup announcement email to all members.
 
 ### Host requirements
