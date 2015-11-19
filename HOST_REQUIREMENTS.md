@@ -26,6 +26,7 @@ We have cheekily defined levels of hosting/sponsorhip along the Higher Education
 - All of the Undergrad benefits
 - Add your branding / logo to sponsor section
 - Brief message from you in the sponsor section of the meetup event and github meeting notes (can include links)
+- Brief message from you in the meetup announcement email to all members.
 
 ### Host requirements
 In order to provide a great meetup environment that our membership is accustomed to hosts must agree to provide the following:
