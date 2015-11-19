@@ -5,9 +5,7 @@ Nodeschool Dallas
 
 ![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
 
-__NEXT MEETUP [November 4th](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Functional Javascript Part 1
-
-__NEXT NEXT MEETUP [December 2nd](http://www.meetup.com/Nodeschool-Dallas/events/226080835/)__ Functional Javascript Part 2
+__NEXT MEETUP [December 2nd](http://www.meetup.com/Nodeschool-Dallas/events/226080835/)__ Functional Javascript Part 2
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
@@ -25,9 +23,8 @@ What's a NodeSchool?
 ![Nodeschool](https://github.com/nodeschool/dallas/blob/master/assets/imgs/nodeschool-logo.png)
 
 ###More about NodeSchool
-* NodeUp Podcast discussing NodeSchool: http://nodeup.com/
+* NodeUp Podcast discussing NodeSchool: http://nodeup.com/fiftyfive
 * Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
-
 
 
 ![Nodes logo](https://github.com/nodeschool/dallas/blob/master/assets/imgs/node-logo.png)
@@ -48,6 +45,9 @@ General Resources:
 * Mozilla Developer Network (JavaScript documentation): https://developer.mozilla.org/en-US/
 * npm: https://www.npmjs.org/
 
+Study Abroad
+------
+Want to host a Nodeschool Dallas meetup? Check out our [guide for hosts](https://github.com/nodeschool/dallas/blob/gh-pages/HOST_REQUIREMENTS.md)
 Attendance
 ------
 * Sign into Github or sign up if you haven't already!
