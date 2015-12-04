@@ -5,7 +5,7 @@ Nodeschool Dallas
 
 ![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
 
-__NEXT MEETUP [December 2nd](http://www.meetup.com/Nodeschool-Dallas/events/226080835/)__ Functional Javascript Part 2
+__NEXT MEETUP [January 20](http://www.meetup.com/Nodeschool-Dallas/events/227196166/)__ Study Abroad at Vinli. Workshop: Make Me Hapi!
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
