@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Nodeschool Dallas Code of Conduct
 
 All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.

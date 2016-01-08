@@ -1,0 +1,14 @@
+# Site settings
+title: Nodeschool Dallas
+description: > # this means to ignore newlines until "baseurl:"
+  Workshops to learn Node.js and javascript.
+baseurl: "/dallas" # the subpath of your site, e.g. /blog/
+url: "http://nodeschool.github.io/dallas" # the base hostname & protocol for your site
+twitter_username: nodeschooldal
+
+# Build settings
+markdown: kramdown
+
+# Github Flavored Markdown
+kramdown:
+  input: GFM

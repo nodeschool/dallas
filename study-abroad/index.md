@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Study Abroad Program
 ======
 ## Hosting a Nodeschool Dallas meetup
