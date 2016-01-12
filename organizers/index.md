@@ -1,8 +1,6 @@
 ---
-layout: default
+title: Organizers
 ---
-
-## Organizers
 
 {% for organizer in site.data.organizers %}
 

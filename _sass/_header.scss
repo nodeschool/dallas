@@ -1,0 +1,156 @@
+.site-header {
+  position: relative;
+  background-color: $skyline-color;
+
+  .container {
+    background-image: $dallas-skyline;
+    background-position: bottom right 5%;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+  }
+}
+
+.site-title {
+  @extend .h1;
+
+  color: white;
+  text-shadow: 1px 1px black;
+
+  &:hover {
+    color: darken(white, 10%);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  @extend .navbar-collapse;
+
+  padding: 0;
+
+  .page-link {
+    @extend .btn, .btn-xs, .btn-primary;
+  }
+
+}
+
+.site-nav-toggle {
+  @extend .navbar-toggle;
+
+  background-color: $btn-primary-bg;
+  border: none;
+  margin-left: 15px;
+
+  &:hover,
+  &:focus {
+    background-color: darken($btn-primary-bg, 10%);
+  }
+
+  .icon-bar {
+    background-color: $btn-primary-color;
+  }
+
+}
+
+@media(max-width: $screen-xs-max) {
+
+  .site-header {
+
+    .container {
+      background-position: bottom right 12%;
+      background-size: auto 80%;
+    }
+
+  }
+
+  .site-title {
+    font-size: 3.6em;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 0 15px;
+    background-color: transparentize(white, 0.5);
+
+    .page-link {
+      width: 100%;
+      font-size: 1.4em;
+      margin-top: 3px;
+
+      &:last-of-type {
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+}
+
+@media(max-width: $screen-xs-max / 2) {
+
+  .site-header {
+
+    .container {
+      background-position: bottom right 20%;
+      background-size: auto 60%;
+    }
+
+  }
+
+  .site-title {
+    font-size: 2.5em;
+  }
+
+}
+
+@media(min-width: $screen-sm) and (max-width: $screen-sm-max) {
+
+  .site-header {
+
+    .container {
+      height: 100px;
+      padding-top: 8px;
+    }
+
+  }
+
+  .site-title {
+    font-size: 4.2em;
+  }
+
+}
+
+@media(min-width: $screen-md) and (max-width: $screen-md-max) {
+
+  .site-header {
+
+    .container {
+      height: 160px;
+      padding-top: 55px;
+    }
+
+  }
+
+  .site-title {
+    font-size: 5em;
+  }
+
+}
+
+@media(min-width: $screen-lg) {
+
+  .site-header {
+
+    .container {
+      height: 200px;
+      padding-top: 80px;
+    }
+
+  }
+
+  .site-title {
+    font-size: 6em;
+  }
+
+}

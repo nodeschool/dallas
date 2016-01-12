@@ -1,0 +1,22 @@
+---
+# required indicate to Jekyll that this should be preprocessed
+# @see http://jekyllrb.com/docs/assets/
+---
+
+// define paths that use baseurl here
+$dallas-skyline: url('{{ site.baseurl }}/assets/images/nodeschool-dallas-skyline-optimized.svg');
+
+// colors
+$skyline-color: #6F87B1;
+
+// overrides
+$brand-primary: #383838;
+
+// libs
+@import "{{ site.libs.bootstrap }}/stylesheets/bootstrap";
+
+// components
+@import "sponsors";
+
+// sections
+@import "header";

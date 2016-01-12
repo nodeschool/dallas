@@ -1,0 +1,26 @@
+<header class="site-header">
+
+  <button type="button" class="site-nav-toggle collapsed" data-toggle="collapse" data-target="#site-nav-collapse" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+  <div class="container">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="site-nav collapse" id="site-nav-collapse">
+
+      {% for page in site.pages %}
+      {% if page.title %}
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+      {% endfor %}
+
+    </nav>
+
+  </div>
+
+</header>

@@ -3,7 +3,7 @@ title: Nodeschool Dallas
 description: > # this means to ignore newlines until "baseurl:"
   Workshops to learn Node.js and javascript.
 baseurl: "/dallas" # the subpath of your site, e.g. /blog/
-url: "http://nodeschool.github.io/dallas" # the base hostname & protocol for your site
+url: "http://nodeschool.github.io" # the base hostname & protocol for your site
 twitter_username: nodeschooldal
 
 # Build settings
@@ -12,3 +12,25 @@ markdown: kramdown
 # Github Flavored Markdown
 kramdown:
   input: GFM
+
+include: [
+  "_sass"
+]
+
+libs:
+  jquery: "lib/jquery-2.2.0.min.js"
+  bootstrap: "lib/bootstrap-sass-3.3.6/assets"
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "page"
