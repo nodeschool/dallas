@@ -1,4 +1,8 @@
-# Nodeschool | 2015-08-26
+---
+title: Promiscuity
+sponsors: credera
+meetupId: 219510542
+---
 
 ## Tonight's featured workshopper
 
@@ -20,12 +24,12 @@ Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/iss
 
 Complete a workshopper or create an exercise, get a sticker from our collection!
 
-![Nodeschool Dallas](images/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas]({{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png)
 
-![International Day](images/international-day.png)
+![International Day]({{ site.baseurl }}/assets/images/international-day.png)
 
 ## Tonight's Sponsor
 
 Thanks as always to [Credera](http://www.credera.com) for food and drinks!
 
-![Credera Logo](images/credera-logo-new.png)
+![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo-new.png)

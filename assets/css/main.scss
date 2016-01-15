@@ -9,8 +9,10 @@ $dallas-skyline: url('{{ site.baseurl }}/assets/images/nodeschool-dallas-skyline
 // colors
 $skyline-color: #6F87B1;
 
-// overrides
+// bootstrap overrides
 $brand-primary: #383838;
+$link-color: #337ab7;
+$link-hover-color: darken($link-color, 15%);
 
 // libs
 @import "{{ site.libs.bootstrap }}/stylesheets/bootstrap";

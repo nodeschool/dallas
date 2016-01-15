@@ -1,4 +1,8 @@
-# Nodeschool Dallas | 2015-01-28
+---
+title: Learn You Node
+sponsors: credera
+meetupId: 218168772
+---
 
 ## Welcome!
 
@@ -69,7 +73,7 @@ Everyone (for tonight)!
 
 Anyone who finishes an entire workshop get's sweet Nodeschool Dallas laptop swag!
 
-![Nodeschool Dallas sticker](images/nodeschool-dallas.png)
+![Nodeschool Dallas sticker]({{ site.baseurl }}/assets/images/nodeschool-dallas.png)
 
 ## Tonight's schedule
 
@@ -83,7 +87,7 @@ Be friendly, ask questions, learn you some node!
 
 Thanks to [Credera](http://www.credera.com) for sponsoring!
 
-![Credera Logo](images/credera-logo.jpg)
+![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo.jpg)
 
 ## Links
 

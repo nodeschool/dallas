@@ -1,4 +1,8 @@
-# Nodeschool Dallas | 2015-04-22
+---
+title: Express Yourself
+sponsors: credera
+meetupId: 219510528
+---
 
 ## Tonight's featured workshopper
 
@@ -21,12 +25,12 @@ Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/iss
 
 ### Two New Stickers!
 
-![Osaka Nodeschool](images/osaka-stickers.jpg)
+![Osaka Nodeschool]({{ site.baseurl }}/assets/images/osaka-stickers.jpg)
 
-![Trello](images/trello-stickers.jpg)
+![Trello]({{ site.baseurl }}/assets/images/trello-stickers.jpg)
 
 ## Tonight's Sponsor
 
 Thanks again to [Credera](http://www.credera.com) for the venue, drinks and food!
 
-![Credera Logo](images/credera-logo.jpg)
+![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo.jpg)

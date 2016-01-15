@@ -1,4 +1,8 @@
-# Nodeschool International Day | 2015-05-22
+---
+title: Nodeschool International Day
+sponsors: addison-treehouse, credera
+meetupId: 219510533
+---
 
 ## Tonight's featured workshopper
 
@@ -20,18 +24,18 @@ Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/iss
 
 You get an International Day sticker! __EVERYBODY GETS A STICKER!__
 
-![International Day](images/international-day.png)
+![International Day]({{ site.baseurl }}/assets/images/international-day.png)
 
 Complete a workshopper or create an exercise, get the new Dallas sticker!
 
-![Nodeschool Dallas](images/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas]({{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png)
 
 ## Tonight's Sponsor
 
 Thanks to [Addison Treehouse](http://www.addisontreehouse.com) for providing the venue!
 
-![Addison Treehouse](images/addison-treehouse.png)
+![Addison Treehouse]({{ site.baseurl }}/assets/images/addison-treehouse.png)
 
 Thanks as always to [Credera](http://www.credera.com) for food and drinks!
 
-![Credera Logo](images/credera-logo-new.png)
+![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo-new.png)

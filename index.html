@@ -2,38 +2,21 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<div id="canvas-wrapper">
-  <div class="container">
-    <div class="hello">
-      <h2 class="noselect">Welcome to</h2>
-      <h1 class="noselect">Nodeschool Dallas</h1>
+<!-- what -->
+<ul>
+  <li>Nodeschool</li>
+</ul>
 
-      <div class="logo">
-        <img class="img-responsive" src="{{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png" alt="Nodedallas"/>
-      </div>
+<!-- when -->
+<ul>
+  <li>connect on meetup</li>
+</ul>
 
-      <div class="message_block">
-        <p><a href="http://www.meetup.com/Nodeschool-Dallas/events/227196166/">Next meetup: January 20, downtown Dallas</a></p>
-        <p><a href="https://github.com/nodeschool/discussions">Node School Discussion Rules</a></p>
-        <p><a href="{{ site.baseurl }}/study-abroad/">Study Abroad: Want to host Nodeschool Dallas?</a></p>
-
-      </div>
-
-      <a href="https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="assets/images/gitter.svg"/></a>
-
-      <div class="code_block">
-        <h2 class="noselect">Command lines to get started:</h2>
-        <p>sudo npm install -g<br/>
-          learnyounode</p>
-      </div>
-
-    </div>
-
-    <footer>
-      <p>The Dallas chapter of <a href="http://nodeschool.io/" title="nodeschool">Nodeshool.io</a></p>
-      <p>Our <a href="https://github.com/nodeschool/dallas" title="Nodedallas Github">Github</a></p>
-    </footer>
-  </div>
-
-</div>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="http://www.meetup.com/Nodeschool-Dallas/events/{{ post.meetupId }}">meetup</a> |
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

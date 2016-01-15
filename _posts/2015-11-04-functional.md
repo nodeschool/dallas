@@ -1,4 +1,8 @@
-# Nodeschool | 2015-11-04
+---
+title: First-Class Functions
+sponsors: credera
+meetupId: 226082378
+---
 
 ## Tonight's featured workshopper
 
@@ -20,12 +24,12 @@ Complete a workshopper or create an exercise, get a sticker from our collection!
 
 [Limited edition San Francisco stickers](https://twitter.com/Gangstead/status/644991620534812672)
 
-![Nodeschool Dallas](images/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas]({{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png)
 
-![International Day](images/international-day.png)
+![International Day]({{ site.baseurl }}/assets/images/international-day.png)
 
 ## Tonight's Sponsor
 
 Thanks as always to [Credera](http://www.credera.com) for food and drinks!
 
-![Credera Logo](images/credera-logo-new.png)
+![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo-new.png)
