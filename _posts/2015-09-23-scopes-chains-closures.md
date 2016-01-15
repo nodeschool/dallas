@@ -1,6 +1,7 @@
 ---
 title: Scopes, Chains, and Closures Oh My!
-sponsors: credera
+sponsors:
+- credera
 meetupId: 219510546
 ---
 

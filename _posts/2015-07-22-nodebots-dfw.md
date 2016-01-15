@@ -1,6 +1,7 @@
 ---
 title: NodebotsDFW
-sponsors: credera
+sponsors:
+- credera
 meetupId: 219510538
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Second-First-Class Functions
-sponsors: credera
+sponsors:
+- credera
 meetupId: 226080835
 ---
 

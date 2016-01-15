@@ -1,0 +1,75 @@
+.events {
+
+  .event-title {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .event-meetup, .event-sponsor {
+    margin-left: 10px;
+
+    img {
+      height: 2em;
+      vertical-align: bottom;
+    }
+
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+
+  .event-study-abroad {
+    margin-left: 10px;
+    border: 1px solid gray;
+    font-size: 1em;
+    position: relative;
+    bottom: 4px;
+
+    .glyphicon {
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  .event {
+    $event-bg: #404040;
+    $ribbon-size: 1.75em;
+    $ribbon-horizontal-adjust: -$ribbon-size * 1.45;
+
+    margin-bottom: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    position: relative;
+    display: block;
+    color: white;
+    background-color: $event-bg;
+
+    a {
+      color: white;
+
+      &:hover {
+        color: darken(white, 15%);
+      }
+    }
+
+    &:before, &:after {
+      background: darken($event-bg, 2%);
+      position: absolute;
+      top: .6em;
+      content: ' ';
+      height: 0;
+      border: $ribbon-size solid rgba(0, 0, 0, 0);
+      border-left: .9em solid black;
+    }
+    &:before {
+      left: $ribbon-horizontal-adjust;
+    }
+    &:after {
+      right: $ribbon-horizontal-adjust;
+      transform: rotate(180deg);
+    }
+  }
+
+}

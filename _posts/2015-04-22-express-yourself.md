@@ -1,6 +1,7 @@
 ---
 title: Express Yourself
-sponsors: credera
+sponsors:
+- credera
 meetupId: 219510528
 ---
 

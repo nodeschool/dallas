@@ -1,6 +1,7 @@
 ---
 title: Promiscuity
-sponsors: credera
+sponsors:
+- credera
 meetupId: 219510542
 ---
 

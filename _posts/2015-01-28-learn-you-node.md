@@ -1,6 +1,7 @@
 ---
 title: Learn You Node
-sponsors: credera
+sponsors:
+- credera
 meetupId: 218168772
 ---
 

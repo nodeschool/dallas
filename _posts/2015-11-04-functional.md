@@ -1,6 +1,7 @@
 ---
 title: First-Class Functions
-sponsors: credera
+sponsors:
+- credera
 meetupId: 226082378
 ---
 
