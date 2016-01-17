@@ -9,6 +9,7 @@ title: Study Abroad
 This is an extension of the Nodeschool organizational guidelines to hosting an event, a portion of which is highlighted below.
 
 From the [Nodeschool website](http://nodeschool.io/host.html):
+
 > NodeSchool is a fully community driven effort and is 100% open source. This means that anyone can use the NodeSchool materials and/or host an event.
 >
 > The only expectations for event hosts is that events be not-for-profit (free or low cost) and that governance of events should have an open membership model (so that nobody can 'control' the events)
@@ -56,6 +57,7 @@ In order to provide a great meetup environment that our membership is accustomed
 
 ## Contacting us:
 The current plan is to host meetings outside of our home base every other month.  To get in contact with the organizers please use one of these channels:
+
 - Contact through our [meetup page](http://www.meetup.com/Nodeschool-Dallas/) (preferred)
 - Create an [issue](https://github.com/nodeschool/dallas/issues)
 - DM on [twitter](https://twitter.com/nodeschooldal)
