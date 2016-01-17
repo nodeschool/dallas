@@ -35,7 +35,6 @@
   .event {
     $event-bg: #404040;
     $ribbon-size: 1.75em;
-    $ribbon-horizontal-adjust: -$ribbon-size * 1.45;
 
     margin-bottom: 30px;
     margin-left: -15px;
@@ -43,7 +42,6 @@
     padding: 10px 15px;
     position: relative;
     display: block;
-    color: white;
     background-color: $event-bg;
 
     a {
@@ -64,10 +62,10 @@
       border-left: .9em solid black;
     }
     &:before {
-      left: $ribbon-horizontal-adjust;
+      left: -$ribbon-size * 1.45;
     }
     &:after {
-      right: $ribbon-horizontal-adjust;
+      right: -$ribbon-size * 1.5;
       transform: rotate(180deg);
     }
   }

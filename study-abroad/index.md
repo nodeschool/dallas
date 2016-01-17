@@ -1,5 +1,5 @@
 ---
-title: Study Abroad Program
+title: Study Abroad
 ---
 
 ## Hosting a Nodeschool Dallas meetup
