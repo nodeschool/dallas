@@ -4,6 +4,6 @@ title: Organizers
 
 {% for organizer in site.data.organizers %}
 
-- [{{ organizer.name }}]({{ organizer.github }})
+- [{{ organizer.name }}]({{ site.data.urls.github }}/{{ organizer.github }})
 
 {% endfor %}

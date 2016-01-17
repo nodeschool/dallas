@@ -64,7 +64,7 @@ layout: default
   featured workshopper, but feel free to attend and work on any workshopper
   that interests you. Take a gander at the upcoming events below to find out
   when and where the next one will be. Please RSVP on
-  <a target="_blank" href="{{ site.data.meetup.url }}">meetup</a> if you plan
+  <a target="_blank" href="{{ site.data.urls.meetup }}">meetup</a> if you plan
   on attending. See you there! (Bring your laptop!)
 </p>
 
@@ -76,7 +76,7 @@ layout: default
       <a href="{{ post.url }}">{{ post.date | date_to_string}} - {{ post.title }}</a>
     </h3>
 
-    <a class="event-meetup" target="_blank" href="{{ site.data.meetup.url }}/events/{{ post.meetupId }}">
+    <a class="event-meetup" target="_blank" href="{{ site.data.urls.meetup }}/events/{{ post.meetupId }}">
       <span class="sr-only">Meetup</span>
       <img alt="Meetup Logo" src="{{ site.baseurl }}/assets/images/meetup-logo.png" />
     </a>
