@@ -49,6 +49,44 @@
   }
 
   .event {
+
+    &.js-relative-today {
+      .event-title {
+        font-weight: bold;
+
+        a {
+          color: #27bff2;
+        }
+
+        &:before {
+          content: 'Today!';
+          padding-left: 5px;
+          padding-right: 5px;
+          border-radius: 5px;
+          background-color: #00bfff;
+          font-style: italic;
+        }
+      }
+    }
+
+    &.js-relative-future {
+      .event-title {
+        &:before {
+          content: 'Coming Soon...';
+          font-style: italic;
+        }
+      }
+    }
+
+    &.js-relative-today, &.js-relative-future {
+      .event-title {
+        a {
+          margin-left: 5px;
+          display: inline-block;
+        }
+      }
+    }
+
     $event-bg: #404040;
     $ribbon-size: 1.75em;
     $ribbon-cutout: .9em;
