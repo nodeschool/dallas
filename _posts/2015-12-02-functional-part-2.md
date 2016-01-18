@@ -28,7 +28,7 @@ Complete a workshopper or create an exercise, get a sticker from our collection!
 
 [Limited edition San Francisco stickers](https://twitter.com/Gangstead/status/644991620534812672)
 
-![Nodeschool Dallas]({{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas]({{ site.baseurl }}/assets/images/stickers/nodeschool-dallas-skyline.png)
 
 ## Tonight's Sponsor
 

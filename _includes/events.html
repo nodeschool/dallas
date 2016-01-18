@@ -11,13 +11,13 @@
 
       <a class="event-meetup" target="_blank" href="{{ site.data.urls.meetup }}/events/{{ post.meetupId }}">
         <span class="sr-only">Meetup</span>
-        <img alt="Meetup Logo" src="{{ site.baseurl }}/assets/images/meetup-logo.png" />
+        <img alt="Meetup Logo" src="{{ site.baseurl }}/assets/images/social/meetup.png" />
       </a>
 
       {% for sponsor in post.sponsors %}
       <a class="event-sponsor event-sponsor-{{sponsor}}" target="_blank" href="{{ site.data.sponsors[sponsor].url }}">
         <span class="sr-only">Sponsored by {{ site.data.sponsors[sponsor].name }}</span>
-        <img alt="{{ site.data.sponsors[sponsor].name }} Logo" src="{{ site.baseurl }}/assets/images/{{ site.data.sponsors[sponsor].img }}" />
+        <img alt="{{ site.data.sponsors[sponsor].name }} Logo" src="{{ site.baseurl }}/assets/images/sponsors/{{ site.data.sponsors[sponsor].name | slugify }}.png" />
       </a>
       {% endfor %}
 

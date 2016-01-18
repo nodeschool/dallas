@@ -26,11 +26,11 @@ Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/iss
 
 You get an International Day sticker! __EVERYBODY GETS A STICKER!__
 
-![International Day]({{ site.baseurl }}/assets/images/international-day.png)
+![International Day]({{ site.baseurl }}/assets/images/stickers/international-day.png)
 
 Complete a workshopper or create an exercise, get the new Dallas sticker!
 
-![Nodeschool Dallas]({{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas]({{ site.baseurl }}/assets/images/stickers/nodeschool-dallas-skyline.png)
 
 ## Tonight's Sponsor
 

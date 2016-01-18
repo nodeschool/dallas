@@ -25,9 +25,9 @@ Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/iss
 
 Complete a workshopper or create an exercise, get a sticker from our collection!
 
-![Nodeschool Dallas]({{ site.baseurl }}/assets/images/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas]({{ site.baseurl }}/assets/images/stickers/nodeschool-dallas-skyline.png)
 
-![International Day]({{ site.baseurl }}/assets/images/international-day.png)
+![International Day]({{ site.baseurl }}/assets/images/stickers/international-day.png)
 
 ## Tonight's Sponsor
 

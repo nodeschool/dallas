@@ -11,15 +11,28 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav collapse" id="site-nav-collapse">
+    <div class="site-nav collapse" id="site-nav-collapse">
 
-      {% for page in site.pages %}
-      {% if page.title %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-      {% endfor %}
+      <nav>
+        {% for page in site.pages %}
+        {% if page.title %}
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+        {% endfor %}
+      </nav>
 
-    </nav>
+      <div class="social-links">
+        {% for app in site.data.social %}
+        <div class="social-link-container">
+          <a class="social-link social-link-{{ app.name | slugify }}" target="_blank" href="{{ app.url }}">
+            <span class="social-link-name sr-only">{{ app.name }}</span>
+            <img class="social-link-logo" alt="{{ app.name }} Logo" src="{{ site.baseurl }}/assets/images/social/{{ app.name | slugify }}.png" />
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
 
   </div>
 

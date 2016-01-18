@@ -74,7 +74,7 @@ Everyone (for tonight)!
 
 Anyone who finishes an entire workshop get's sweet Nodeschool Dallas laptop swag!
 
-![Nodeschool Dallas sticker]({{ site.baseurl }}/assets/images/nodeschool-dallas.png)
+![Nodeschool Dallas sticker]({{ site.baseurl }}/assets/images/stickers/nodeschool-dallas.png)
 
 ## Tonight's schedule
 
