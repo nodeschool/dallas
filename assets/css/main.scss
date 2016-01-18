@@ -19,11 +19,8 @@ $icon-font-path: '{{ site.baseurl }}/_sass/{{ site.libs.bootstrap }}/fonts/boots
 // libs
 @import "{{ site.libs.bootstrap }}/stylesheets/bootstrap";
 
+// global
+@import "site";
+
 // components
 @import "events";
-@import "posts";
-
-// sections
-@import "header";
-@import "content";
-@import "footer";
