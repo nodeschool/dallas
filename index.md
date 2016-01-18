@@ -12,7 +12,7 @@ NodeSchool meets across the globe at local meetups called
 You'll learn about various node and javascript concepts, tools, and
 libraries via hands on excercises called
 <a target="_blank" href="http://nodeschool.io/#workshoppers">workshoppers</a>.
-he Core workshoppers will ramp you up if you have no prior experience
+The Core workshoppers will ramp you up if you have no prior experience
 and teach you a thing or two if you do. From there, you'll be able to
 jump into any of the growing list of Elective workshoppers and go deep
 into specific topics.
