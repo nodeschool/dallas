@@ -3,7 +3,7 @@ Nodeschool Dallas
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![Meetup logo](images/meetup.png)<br/>
+[![Meetup logo](images/meetup.png)](http://www.meetup.com/Nodeschool-Dallas/)<br/>
 
 [Upcoming Events](https://nodeschool.github.io/dallas/)
 
