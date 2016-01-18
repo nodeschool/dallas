@@ -1,0 +1,10 @@
+.meetup {
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.meetup-logo {
+  height: 2em;
+  vertical-align: bottom;
+}

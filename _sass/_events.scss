@@ -1,0 +1,146 @@
+.events {
+
+  .event-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    @media(min-width: $screen-lg) {
+      display: inline-block;
+    }
+  }
+
+  .meetup, .sponsor {
+    margin-right: 10px;
+
+    @media(max-width: $screen-md-max) {
+      float: left;
+      margin-top: 10px;
+    }
+  }
+
+  .meetup {
+    margin-left: 10px;
+
+    @media(max-width: $screen-md-max) {
+      margin-left: 0;
+    }
+  }
+
+  .meetup-logo, .sponsor-logo {
+    height: 2em;
+  }
+
+  .event-study-abroad {
+    border: 1px solid gray;
+    font-size: 1em;
+    position: relative;
+    bottom: 4px;
+
+    .glyphicon {
+      position: relative;
+      top: 2px;
+    }
+
+    @media(max-width: $screen-md-max) {
+      float: left;
+      margin-top: 10px;
+      bottom: auto;
+    }
+  }
+
+  .event {
+
+    &.js-relative-today {
+      .event-title {
+        font-weight: bold;
+
+        a {
+          color: #27bff2;
+        }
+
+        &:before {
+          content: 'Today!';
+          padding-left: 5px;
+          padding-right: 5px;
+          border-radius: 5px;
+          background-color: #00bfff;
+          font-style: italic;
+        }
+      }
+    }
+
+    &.js-relative-future {
+      .event-title {
+        &:before {
+          content: 'Coming Soon...';
+          font-style: italic;
+        }
+      }
+    }
+
+    &.js-relative-today, &.js-relative-future {
+      .event-title {
+        a {
+          margin-left: 5px;
+          display: inline-block;
+        }
+      }
+    }
+
+    $event-bg: #404040;
+    $ribbon-size: 1.75em;
+    $ribbon-cutout: .9em;
+    $ribbon-horizontal-adjust: -$ribbon-size * 1.45;
+    $ribbon-size-stacked: 3em;
+    $ribbon-cutout-stacked: 1.5em;
+    $ribbon-horizontal-adjust-stacked: -$ribbon-size-stacked * 1.5;
+
+    margin-bottom: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    position: relative;
+    display: block;
+    background-color: $event-bg;
+
+    a {
+      color: white;
+
+      &:hover {
+        color: darken(white, 15%);
+      }
+    }
+
+    &:before, &:after {
+      background: darken($event-bg, 2%);
+      position: absolute;
+      top: .6em;
+      content: ' ';
+      height: 0;
+      border: $ribbon-size solid rgba(0, 0, 0, 0);
+      border-left: $ribbon-cutout solid black;
+
+      @media(max-width: $screen-md-max) {
+        border-width: $ribbon-size-stacked;
+        border-left-width: $ribbon-cutout-stacked;
+      }
+    }
+    &:before {
+      left: $ribbon-horizontal-adjust;
+
+      @media(max-width: $screen-md-max) {
+        left: $ribbon-horizontal-adjust-stacked;
+      }
+    }
+    &:after {
+      right: $ribbon-horizontal-adjust;
+      transform: rotate(180deg);
+
+      @media(max-width: $screen-md-max) {
+        right: $ribbon-horizontal-adjust-stacked;
+      }
+    }
+
+  }
+
+}

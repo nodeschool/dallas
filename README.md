@@ -5,9 +5,7 @@ Nodeschool Dallas
 
 ![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
 
-__NEXT MEETUP [October 28th](http://www.meetup.com/Nodeschool-Dallas/events/219510552/)__ Workshopper TBD
-
-__NEXT NEXT MEETUP [November ??](http://www.meetup.com/Nodeschool-Dallas/events/219510554/)__ Happy Thanksgiving!
+__NEXT MEETUP [January 20](http://www.meetup.com/Nodeschool-Dallas/events/227196166/)__ Study Abroad at Vinli. Workshop: Make Me Hapi!
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
@@ -25,9 +23,8 @@ What's a NodeSchool?
 ![Nodeschool](https://github.com/nodeschool/dallas/blob/master/assets/imgs/nodeschool-logo.png)
 
 ###More about NodeSchool
-* NodeUp Podcast discussing NodeSchool: http://nodeup.com/
+* NodeUp Podcast discussing NodeSchool: http://nodeup.com/fiftyfive
 * Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
-
 
 
 ![Nodes logo](https://github.com/nodeschool/dallas/blob/master/assets/imgs/node-logo.png)
@@ -48,6 +45,9 @@ General Resources:
 * Mozilla Developer Network (JavaScript documentation): https://developer.mozilla.org/en-US/
 * npm: https://www.npmjs.org/
 
+Study Abroad
+------
+Want to host a Nodeschool Dallas meetup? Check out our [guide for hosts](https://github.com/nodeschool/dallas/blob/gh-pages/HOST_REQUIREMENTS.md)
 Attendance
 ------
 * Sign into Github or sign up if you haven't already!

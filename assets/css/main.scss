@@ -1,0 +1,28 @@
+---
+# required indicate to Jekyll that this should be preprocessed
+# @see http://jekyllrb.com/docs/assets/
+---
+
+// define paths that use baseurl here
+$dallas-skyline: url('{{ site.baseurl }}/assets/images/nodeschool-dallas-skyline-optimized.svg');
+$globe-icon: url('{{ site.baseurl }}/assets/images/globe.png');
+
+// colors
+$skyline-color: #6F87B1;
+
+// bootstrap overrides
+$brand-primary: #383838;
+$link-color: #428bca;
+$link-hover-color: darken($link-color, 15%);
+$icon-font-path: '{{ site.baseurl }}/_sass/{{ site.libs.bootstrap }}/fonts/bootstrap/';
+
+// libs
+@import "{{ site.libs.bootstrap }}/stylesheets/bootstrap";
+
+// global
+@import "site";
+
+// components
+@import "events";
+@import "meetup";
+@import "sponsor";
