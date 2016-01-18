@@ -6,6 +6,9 @@
 
     color: white;
 
+    @media(min-width: $screen-md) {
+      width: 75%;
+    }
   }
 
 }

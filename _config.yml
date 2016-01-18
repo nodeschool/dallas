@@ -12,6 +12,7 @@ markdown: kramdown
 # Github Flavored Markdown
 kramdown:
   input: GFM
+  hard_wrap: false
 
 include: [
   "_sass"

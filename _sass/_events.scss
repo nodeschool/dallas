@@ -1,13 +1,16 @@
 .events {
 
   .event-title {
-    display: inline-block;
     margin-top: 0;
     margin-bottom: 0;
+
+    @media(min-width: $screen-lg) {
+      display: inline-block;
+    }
   }
 
   .event-meetup, .event-sponsor {
-    margin-left: 10px;
+    margin-right: 10px;
 
     img {
       height: 2em;
@@ -17,10 +20,22 @@
     &:hover, &:focus {
       text-decoration: none;
     }
+
+    @media(max-width: $screen-md-max) {
+      float: left;
+      margin-top: 10px;
+    }
+  }
+
+  .event-meetup {
+    margin-left: 10px;
+
+    @media(max-width: $screen-md-max) {
+      margin-left: 0;
+    }
   }
 
   .event-study-abroad {
-    margin-left: 10px;
     border: 1px solid gray;
     font-size: 1em;
     position: relative;
@@ -30,11 +45,22 @@
       position: relative;
       top: 2px;
     }
+
+    @media(max-width: $screen-md-max) {
+      float: left;
+      margin-top: 10px;
+      bottom: auto;
+    }
   }
 
   .event {
     $event-bg: #404040;
     $ribbon-size: 1.75em;
+    $ribbon-cutout: .9em;
+    $ribbon-horizontal-adjust: -$ribbon-size * 1.45;
+    $ribbon-size-stacked: 3em;
+    $ribbon-cutout-stacked: 1.5em;
+    $ribbon-horizontal-adjust-stacked: -$ribbon-size-stacked * 1.5;
 
     margin-bottom: 30px;
     margin-left: -15px;
@@ -59,15 +85,29 @@
       content: ' ';
       height: 0;
       border: $ribbon-size solid rgba(0, 0, 0, 0);
-      border-left: .9em solid black;
+      border-left: $ribbon-cutout solid black;
+
+      @media(max-width: $screen-md-max) {
+        border-width: $ribbon-size-stacked;
+        border-left-width: $ribbon-cutout-stacked;
+      }
     }
     &:before {
-      left: -$ribbon-size * 1.45;
+      left: $ribbon-horizontal-adjust;
+
+      @media(max-width: $screen-md-max) {
+        left: $ribbon-horizontal-adjust-stacked;
+      }
     }
     &:after {
-      right: -$ribbon-size * 1.5;
+      right: $ribbon-horizontal-adjust;
       transform: rotate(180deg);
+
+      @media(max-width: $screen-md-max) {
+        right: $ribbon-horizontal-adjust-stacked;
+      }
     }
+
   }
 
 }
