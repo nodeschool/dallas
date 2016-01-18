@@ -24,3 +24,5 @@ $icon-font-path: '{{ site.baseurl }}/_sass/{{ site.libs.bootstrap }}/fonts/boots
 
 // components
 @import "events";
+@import "meetup";
+@import "sponsor";

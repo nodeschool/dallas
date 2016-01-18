@@ -9,16 +9,10 @@
         <a href="{{ post.url }}">{{ post.date | date_to_string}} - {{ post.title }}</a>
       </h3>
 
-      <a class="event-meetup" target="_blank" href="{{ site.data.urls.meetup }}/events/{{ post.meetupId }}">
-        <span class="sr-only">Meetup</span>
-        <img alt="Meetup Logo" src="{{ site.baseurl }}/assets/images/social/meetup.png" />
-      </a>
+      {% include meetup.html id=post.meetupId %}
 
       {% for sponsor in post.sponsors %}
-      <a class="event-sponsor event-sponsor-{{sponsor}}" target="_blank" href="{{ site.data.sponsors[sponsor].url }}">
-        <span class="sr-only">Sponsored by {{ site.data.sponsors[sponsor].name }}</span>
-        <img alt="{{ site.data.sponsors[sponsor].name }} Logo" src="{{ site.baseurl }}/assets/images/sponsors/{{ site.data.sponsors[sponsor].name | slugify }}.png" />
-      </a>
+      {% include sponsor.html sponsor=sponsor %}
       {% endfor %}
 
       {% if post.studyAbroad %}

@@ -19,6 +19,21 @@ body {
 
 }
 
+.post-meta {
+  .meetup-logo {
+    height: 1em;
+    position: relative;
+    bottom: 1px;
+    vertical-align: middle;
+  }
+}
+
+.post-sponsors {
+  .sponsor {
+    margin-right: 10px;
+  }
+}
+
 .post-content {
 
   img {

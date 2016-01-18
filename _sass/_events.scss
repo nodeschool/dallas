@@ -9,17 +9,8 @@
     }
   }
 
-  .event-meetup, .event-sponsor {
+  .meetup, .sponsor {
     margin-right: 10px;
-
-    img {
-      height: 2em;
-      vertical-align: bottom;
-    }
-
-    &:hover, &:focus {
-      text-decoration: none;
-    }
 
     @media(max-width: $screen-md-max) {
       float: left;
@@ -27,12 +18,16 @@
     }
   }
 
-  .event-meetup {
+  .meetup {
     margin-left: 10px;
 
     @media(max-width: $screen-md-max) {
       margin-left: 0;
     }
+  }
+
+  .meetup-logo, .sponsor-logo {
+    height: 2em;
   }
 
   .event-study-abroad {
