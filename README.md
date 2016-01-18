@@ -5,7 +5,7 @@ Nodeschool Dallas
 
 [![Meetup logo](images/meetup.png)](http://www.meetup.com/Nodeschool-Dallas/)<br/>
 
-[Upcoming Events](https://nodeschool.github.io/dallas/)
+[Upcoming Events](https://nodeschool.github.io/dallas/#events)
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
