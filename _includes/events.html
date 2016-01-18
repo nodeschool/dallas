@@ -7,7 +7,7 @@
 
       <h3 class="event-title">
         <!-- the post event url is swapped in on current or past events in site.js -->
-        <a class="js-relative-date-url" target="_blank" data-event-url="{{ post.url }}"
+        <a class="js-relative-date-url" target="_blank" data-event-url="{{ site.baseurl }}{{ post.url }}"
           href="{{ site.data.urls.meetup }}/events/{{ post.meetupId }}">
           {{ post.date | date_to_string}} - {{ post.title }}
         </a>
