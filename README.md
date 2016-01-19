@@ -3,15 +3,15 @@ Nodeschool Dallas
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)
+[![Meetup logo](assets/images/meetup.png)](http://www.meetup.com/Nodeschool-Dallas/)<br/>
 
-__NEXT MEETUP [January 20](http://www.meetup.com/Nodeschool-Dallas/events/227196166/)__ Study Abroad at Vinli. Workshop: Make Me Hapi!
+[Upcoming Events](https://nodeschool.github.io/dallas/#events)
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
 <strong>http://nodeschool.io/</strong>
 
-![Nodeschool Dallas logo](/assets/imgs/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas logo](assets/images/nodeschool-dallas-skyline.png)
 
 What's a NodeSchool?
 ------
@@ -20,14 +20,15 @@ What's a NodeSchool?
 
 
 
-![Nodeschool](https://github.com/nodeschool/dallas/blob/master/assets/imgs/nodeschool-logo.png)
+![Nodeschool](assets/images/nodeschool-logo.png)
 
 ###More about NodeSchool
-* NodeUp Podcast discussing NodeSchool: http://nodeup.com/fiftyfive
+* NodeUp Podcast discussing NodeSchool: http://nodeup.com/
 * Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
 
 
-![Nodes logo](https://github.com/nodeschool/dallas/blob/master/assets/imgs/node-logo.png)
+
+![Nodes logo](assets/images/node-logo.png)
 
 Get Node Up and Running
 ------
@@ -45,9 +46,6 @@ General Resources:
 * Mozilla Developer Network (JavaScript documentation): https://developer.mozilla.org/en-US/
 * npm: https://www.npmjs.org/
 
-Study Abroad
-------
-Want to host a Nodeschool Dallas meetup? Check out our [guide for hosts](https://github.com/nodeschool/dallas/blob/gh-pages/HOST_REQUIREMENTS.md)
 Attendance
 ------
 * Sign into Github or sign up if you haven't already!

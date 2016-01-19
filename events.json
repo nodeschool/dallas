@@ -1,0 +1,13 @@
+---
+# Let jekyll generate this from the event posts
+layout: null
+---
+
+{
+  "events": [{% for post in site.posts %}{
+    "title": "{{ post.title }}",
+    "date": "{{ post.date }}",
+    "url": "{{ site.url }}{{ site.baseurl }}{{ post.url }}",
+    "meetup": "{{ site.data.urls.meetup }}/events/{{ post.meetupId }}"
+  }{% unless forloop.last %}, {% endunless %}{% endfor %}]
+}
