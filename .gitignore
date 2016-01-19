@@ -1,4 +1,3 @@
-.DS_store
-
-config.codekit
-*.scssc
+Gemfile.lock
+_site
+.sass-cache

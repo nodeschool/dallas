@@ -3,15 +3,15 @@ Nodeschool Dallas
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-![Meetup logo](https://raw.githubusercontent.com/nodeschool/dallas/master/_sources/img/meetup.png)<br/>
-<strong>NEXT MEETUP APRIL 22nd</strong><br/>
-<strong>http://www.meetup.com/Nodeschool-Dallas/events/219510528/</strong>
+[![Meetup logo](assets/images/meetup.png)](http://www.meetup.com/Nodeschool-Dallas/)<br/>
+
+[Upcoming Events](https://nodeschool.github.io/dallas/#events)
 
 NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
 <strong>http://nodeschool.io/</strong>
 
-![Nodeschool Dallas logo](/assets/imgs/nodeschool-dallas-skyline.png)
+![Nodeschool Dallas logo](assets/images/nodeschool-dallas-skyline.png)
 
 What's a NodeSchool?
 ------
@@ -20,7 +20,7 @@ What's a NodeSchool?
 
 
 
-![Nodeschool](https://github.com/nodeschool/dallas/blob/master/assets/imgs/nodeschool-logo.png)
+![Nodeschool](assets/images/nodeschool-logo.png)
 
 ###More about NodeSchool
 * NodeUp Podcast discussing NodeSchool: http://nodeup.com/
@@ -28,7 +28,7 @@ What's a NodeSchool?
 
 
 
-![Nodes logo](https://github.com/nodeschool/dallas/blob/master/assets/imgs/node-logo.png)
+![Nodes logo](assets/images/node-logo.png)
 
 Get Node Up and Running
 ------

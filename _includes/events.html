@@ -1,0 +1,35 @@
+<div class="events">
+  {% for post in site.posts %}
+
+  <div class="event js-relative-date" data-relative-date="{{ post.date }}">
+
+    <div class="clearfix">
+
+      <h3 class="event-title">
+        <!-- the post event url is swapped in on current or past events in site.js -->
+        <a class="js-relative-date-url" target="_blank" data-event-url="{{ site.baseurl }}{{ post.url }}"
+          href="{{ site.data.urls.meetup }}/events/{{ post.meetupId }}">
+          {{ post.date | date_to_string}} - {{ post.title }}
+        </a>
+      </h3>
+
+      {% include meetup.html id=post.meetupId %}
+
+      {% for sponsor in post.sponsors %}
+      {% include sponsor.html sponsor=sponsor %}
+      {% endfor %}
+
+      {% if post.studyAbroad %}
+      <span class="event-study-abroad label label-primary">
+        <span class="glyphicon glyphicon-globe"></span>
+        <a href="{{ site.baseurl }}/study-abroad/">Study Abroad</a>
+      </span>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+  {% endfor %}
+</div>
+

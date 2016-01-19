@@ -1,0 +1,10 @@
+.sponsor {
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.sponsor-logo {
+  height: 2em;
+  vertical-align: bottom;
+}
