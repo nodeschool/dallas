@@ -1,113 +1,55 @@
-# Updating the Site
+Nodeschool Dallas
+======
 
-If this is your first time updating the site, you will need ruby > 2.0
-and bundler installed.
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/dallas?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Installing Ruby, Bundler, and Jekyll
+[![Meetup logo](assets/images/meetup.png)](http://www.meetup.com/Nodeschool-Dallas/)<br/>
 
-### On OS X
+[Upcoming Events](https://nodeschool.github.io/dallas/#events)
 
-Yosemite and Mavericks include 2.0 already. If you're on an earlier
-version of OS X, use Homebrew.
+NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
 
-```sh
-$ brew install ruby
-```
+<strong>http://nodeschool.io/</strong>
 
-```sh
-$ gem install bundler
-```
+![Nodeschool Dallas logo](assets/images/nodeschool-dallas-skyline.png)
 
-You will probably need to use sudo when installing bundler if you're
-using system included ruby.
+What's a NodeSchool?
+------
+* Main site: http://nodeschool.io/
+* NodeSchool workshoppers (problem sets): http://nodeschool.io/#workshoppers
 
-### On Ubuntu
 
-Install [rvm](https://rvm.io/rvm/install) with `--ruby` then use it
-with (add `--default` to use this version of ruby on bash startup):
 
-```sh
-$ rvm use ruby --default
-```
+![Nodeschool](assets/images/nodeschool-logo.png)
 
-```sh
-$ gem install bundler
-```
+###More about NodeSchool
+* NodeUp Podcast discussing NodeSchool: http://nodeup.com/
+* Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
 
-### Install Jekyll
 
-Use bundle to install Jekyll (sudo is not needed on any platform):
 
-```sh
-$ bundle install
-```
+![Nodes logo](assets/images/node-logo.png)
 
-## Previewing the Site
+Get Node Up and Running
+------
+* nvm: https://github.com/creationix/nvm
+   * Allows for multiple Node.js versions installed (similar to Ruby's rvm)
+   * Installs in user's home directory, avoids "sudo" problems
 
-Be sure to set an empty baseurl when serving up the site locally to work
-around [Github Pages
-urls](http://jekyllrb.com/docs/github-pages/#project-page-url-structure):
+* Node.js binary: http://nodejs.org/
+   * Easiest install method
+   * Can require "sudo" permissions
 
-```sh
-jekyll serve --baseurl ''
-```
+General Resources:
+------
+* Node.js API documentation: http://nodejs.org/api/
+* Mozilla Developer Network (JavaScript documentation): https://developer.mozilla.org/en-US/
+* npm: https://www.npmjs.org/
 
-## Adding Events
-
-Events are [Jekyll posts](http://jekyllrb.com/docs/posts/) you add to
-the `_posts` folder. The filename must match the naming convention:
-
-```
-YEAR-MONTH-DAY-title.MARKUP
-```
-
-They also must start with [front
-matter](http://jekyllrb.com/docs/frontmatter/) like the following:
-
-```md
----
-title: Study Abroad at Vinli: Workshop Make Me Hapi
-sponsors:
-- vinli
-studyAbroad: true
-meetupId: 227196166
----
-```
-
-Where
-
-- __title__: Name of the event
-- __sponsors__: List of sponsors that adds their logo to the event (see
-  sponsors section below)
-- __studyAbroad__ *(optional)*: Only set this to true if this is a study
-  abroad event. This adds a study abroad badge to the event link and
-  drives interested parties to our
-  [study abroad info]({{ site.baseurl }}/study-abroad/).
-- __meetupId__: Event Id of the meetup.
-
-### Pseudo Event Drafts
-
-When adding events for future dates, the landing page will link to the
-meetup for that event until the day of then switch to linking to the
-post. This let's you post just the front-matter details for the event
-which will advertise upcoming events while letting us defer filling in
-the content until the day before.
-
-## Adding a Sponser
-
-If we have a new sponsor, you will need to update a couple spots to get
-their sponsor logo to show up in the event. First add the sponsor name
-and url to `_data/sponsors.yml`. Next add their logo to
-`assets/images/sponsors` where the name of the file is `[sponsor.name |
-slugify].png`, e.g. if the sponsor name is Addison Treehouse, the logo
-name will need to be `addison-treehouse.png`.
-
-Now you can add the sponsor to the front-matter of your event. You'll
-need to use the slug version in the front matter as well:
-
-```
----
-sponsors:
-- addison-treehouse
----
-```
+Attendance
+------
+* Sign into Github or sign up if you haven't already!
+* Navigate to [this project's issues list](https://github.com/nodeschool/dallas/issues)
+* Find the issue containing today's attendance
+* Leave us a nice comment to indicate that you are here!
+* Congratulations! Your attendance at Nodeschool has been noted!
