@@ -1,0 +1,52 @@
+<footer class="site-footer">
+
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4">
+
+      <h4>Connect</h4>
+
+      <ul>
+        {% for app in site.data.social %}
+        <li>
+          <a target="_blank" href="{{ app.url }}">{{ app.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+
+      <h4>Organizers</h4>
+
+      <ul>
+        {% for organizer in site.data.organizers %}
+        <li>
+          <a target="_blank" href="{{ site.data.urls.github }}/{{ organizer.github }}">{{ organizer.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+
+      <h4>About</h4>
+
+      <ul>
+        <li><a target="_blank" href="http://nodeschool.io/">nodeschool.io</a></li>
+        <li><a target="_blank" href="https://github.com/nodeschool/discussions">NodeSchool Discussion Rules</a></li>
+        <li><a href="{{ site.baseurl }}/study-abroad/">Study Abroad: Want to host Nodeschool Dallas?</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="{{ site.baseurl }}/assets/js/{{ site.libs.jquery }}"></script>
+<script src="{{ site.baseurl }}/_sass/{{ site.libs.bootstrap }}/javascripts/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/relativeToday.js"></script>
+<script src="{{ site.baseurl }}/assets/js/site.js"></script>

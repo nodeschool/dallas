@@ -1,0 +1,11 @@
+- name: Meetup
+  url: http://www.meetup.com/Nodeschool-Dallas
+
+- name: Twitter
+  url: https://twitter.com/nodeschooldal
+
+- name: Github
+  url: https://github.com/nodeschool/dallas
+
+- name: Gitter
+  url: https://gitter.im/nodeschool/dallas
