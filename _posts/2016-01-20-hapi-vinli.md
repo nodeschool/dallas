@@ -28,4 +28,4 @@ Complete a workshopper or create an exercise, get a sticker from our collection!
 
 Thanks to [Vinli](http://www.vin.li) for food, drinks, stickers and venue!
 
-![Vinli Logo]({{ site.baeurl }}/assets/images/sponsors/vinli.png)
+![Vinli Logo]({{ site.baseurl }}/assets/images/sponsors/vinli.png)
