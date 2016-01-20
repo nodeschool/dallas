@@ -4,23 +4,18 @@
 
 do ($ = jQuery) ->
 
-  relativeToday = (other) ->
-    today = new Date
+  relativeToday = (dateString) ->
+    today = moment()
 
-    [other, today] = for date in [other, today]
-      do (date) ->
-        date.setHours 0, 0, 0, 0
-
-    if other > today then 1
-    else if other is today then 0
+    if today.isBefore(dateString, 'day') then 1
+    else if today.isSame(dateString, 'day') then 0
     else -1
 
   $.fn.relativeToday = () ->
 
     @.each ->
       $el = $ this
-      relativeDate = new Date $el.data 'relative-date'
-      rel = relativeToday relativeDate
+      rel = relativeToday($el.data 'relative-date')
 
       if rel > 0
         $el.addClass('js-relative-future').trigger 'relativeDate:future'
