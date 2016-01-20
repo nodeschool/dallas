@@ -1,7 +1,7 @@
 <div class="events">
   {% for post in site.posts %}
 
-  <div class="event js-relative-date" data-relative-date="{{ post.date }}">
+  <div class="event js-relative-date" data-relative-date="{{ post.date | date: "%F" }}">
 
     <div class="clearfix">
 

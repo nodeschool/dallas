@@ -20,6 +20,7 @@ include: [
 
 libs:
   jquery: "lib/jquery-2.2.0.min.js"
+  moment: "lib/moment-2.11.1.min.js"
   bootstrap: "lib/bootstrap-sass-3.3.6/assets"
 
 defaults:
