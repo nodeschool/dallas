@@ -36,7 +36,7 @@ In order to provide a great meetup environment that our membership is accustomed
 
 #### Undergraduate Level
 - A room with
- -  WiFi
+  - WiFi
   - Chairs
   - Air-conditioning / heating (ensure your building manager doesn't automatically turn it off in the evenings)
   - Projector
@@ -45,15 +45,15 @@ In order to provide a great meetup environment that our membership is accustomed
 - Soft drinks & water
 - Serving products (plates, cups, napkins)
 - Company swag (ie stickers) to hand out to workshop finishers.
- - We use these as rewards for completing so make sure it's something people will want.  XXL t-shirts from last years company picnic aren't going to cut it.
- - We can help provide design ideas
+  - We use these as rewards for completing so make sure it's something people will want.  XXL t-shirts from last years company picnic aren't going to cut it.
+  - We can help provide design ideas
 
 #### Graduate Level
 - All of the Undergrad requirements
 - Beer or other premium drinks
- - Note that drunkenness is not tolerated.
+  - Note that drunkenness is not tolerated.
 - 2" hex sticker of your design or pay us to order generic ones with your name and colors
- - [Generic template](https://github.com/nodeschool/nodeschool.github.io/tree/source/images/make-a-sticker)
+  - [Generic template](https://github.com/nodeschool/nodeschool.github.io/tree/source/images/make-a-sticker)
 
 ## Contacting us:
 The current plan is to host meetings outside of our home base every other month.  To get in contact with the organizers please use one of these channels:
