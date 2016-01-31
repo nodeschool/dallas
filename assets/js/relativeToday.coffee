@@ -4,6 +4,11 @@
 
 do ($ = jQuery) ->
 
+  classes =
+    future: 'js-relative-future'
+    past: 'js-relative-past'
+    today: 'js-relative-today'
+
   relativeToday = (dateString) ->
     today = moment()
 
@@ -11,17 +16,23 @@ do ($ = jQuery) ->
     else if today.isSame(dateString, 'day') then 0
     else -1
 
-  $.fn.relativeToday = () ->
+  $.fn.relativeToday = ->
 
     @.each ->
-      $el = $ this
+      $el = $ @
       rel = relativeToday($el.data 'relative-date')
 
       if rel > 0
-        $el.addClass('js-relative-future').trigger 'relativeDate:future'
+        $el.addClass(classes.future).trigger 'relativeDate:future'
       else if rel < 0
-        $el.addClass('js-relative-past').trigger 'relativeDate:past'
+        $el.addClass(classes.past).trigger 'relativeDate:past'
       else
-        $el.addClass('js-relative-today').trigger 'relativeDate:today'
+        $el.addClass(classes.today).trigger 'relativeDate:today'
+
+    $(@.filter(".#{classes.future}").get().reverse()).each (i) ->
+      $(@).addClass "#{classes.future}-#{i+1}"
+
+    @.filter(".#{classes.past}").each (i) ->
+      $(@).addClass "#{classes.past}-#{i+1}"
 
     @
