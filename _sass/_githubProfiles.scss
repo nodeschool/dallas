@@ -1,0 +1,37 @@
+.github-profiles {
+  padding: 0;
+}
+
+.github-profile {
+  $avatarSize: 64px;
+
+  list-style: none;
+
+  &.js-github-profile-avatar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    @extend .clearfix;
+
+    .github-profile-avatar {
+      width: $avatarSize;
+      border-radius: $avatarSize;
+      float: left;
+    }
+
+    .github-profile-link {
+      padding-right: 20px;
+      border-radius: $avatarSize;
+      background-color: white;
+      float: left;
+    }
+
+    .github-profile-name {
+      margin-left: 15px;
+      font-size: 24px;
+      line-height: 64px;
+      float: left;
+    }
+  }
+
+}
