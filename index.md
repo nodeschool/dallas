@@ -29,7 +29,7 @@ similar.
 Newcombers are welcome! The [organizers]({{ site.baseurl }}/organizers/)
 and your fellow NodeSchoolers will happily assist you every step of the
 way. Besides, NodeSchool is a great place to get started! And there will
-be other newbies there if you (collectively) decide to come! We're all
+be other newbies there if you (collectively) decide to come. We're all
 newbs anyway :)
 
 ### b) an expert with Node?
