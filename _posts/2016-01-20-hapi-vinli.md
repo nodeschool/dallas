@@ -12,7 +12,11 @@ meetupId: 227196166
   - `npm update -g makemehapi` - 2 patch releases since last meetup.
 
 ## News
-
+- [Is Express Dying](https://github.com/strongloop/express/issues/2844)
+- [Tessel 2](https://tessel.io/) Node powered prototype board shipping update.  I want to believe!
+- [Heroku 2 Dokku](http://jwigley.com/2015/10/03/moving-from-heroku-to-dokku/) project easy and fun
+- [Advent of Code](http://adventofcode.com/) Programming puzzles (better late than never!)
+- [Screeps](https://screeps.com/) Programming MMO game
 
 ## Attendance
 
