@@ -1,0 +1,17 @@
+---
+title: Organizers
+---
+
+<ul class="github-profiles">
+
+  {% for organizer in site.data.organizers %}
+
+  <li class="github-profile" data-github-username="{{ organizer.github }}">
+    <a class="github-profile-link" href="{{ site.data.urls.github }}/{{ organizer.github }}" target="_blank">
+      <span class="github-profile-name">{{ organizer.name }}</span>
+    </a>
+  </li>
+
+  {% endfor %}
+
+</ul>

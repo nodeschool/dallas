@@ -29,7 +29,7 @@ similar.
 Newcombers are welcome! The [organizers]({{ site.baseurl }}/organizers/)
 and your fellow NodeSchoolers will happily assist you every step of the
 way. Besides, NodeSchool is a great place to get started! And there will
-be other newbies there if you (collectively) decide to come! We're all
+be other newbies there if you (collectively) decide to come. We're all
 newbs anyway :)
 
 ### b) an expert with Node?
@@ -49,7 +49,7 @@ all newbs.
 
 ## I'm in!
 
-The Dallas chapter meets on the __4th Wednesday__ of the month at
+The Dallas chapter meets on the __3rd Wednesday__ of the month at
 __6:30pm__ (most of the time). Each event will have a featured
 workshopper, but feel free to attend and work on any workshopper that
 interests you. Take a gander at the upcoming events below to find out
