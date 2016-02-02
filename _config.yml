@@ -6,6 +6,9 @@ baseurl: "/dallas" # the subpath of your site, e.g. /blog/
 url: "http://nodeschool.github.io" # the base hostname & protocol for your site
 twitter_username: nodeschooldal
 
+# Publish future posts
+future: true
+
 # Build settings
 markdown: kramdown
 
@@ -22,6 +25,9 @@ libs:
   jquery: "lib/jquery-2.2.0.min.js"
   moment: "lib/moment-2.11.1.min.js"
   bootstrap: "lib/bootstrap-sass-3.3.6/assets"
+
+gems:
+  - jekyll-coffeescript
 
 defaults:
   -
