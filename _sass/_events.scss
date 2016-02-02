@@ -81,14 +81,14 @@
       &.js-relative-future-2 {
         .event-title {
           &:before {
-            content: 'Coming Soon...'
+            content: 'Coming Soon...';
           }
         }
       }
       &.js-relative-future-1 {
         .event-title {
           &:before {
-            content: 'Up Next:'
+            content: 'Up Next:';
             color: #00bfff;
           }
         }
