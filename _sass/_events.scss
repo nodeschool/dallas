@@ -140,6 +140,10 @@
         border-width: $ribbon-size-stacked;
         border-left-width: $ribbon-cutout-stacked;
       }
+
+      @media(max-width: $screen-xs-max) {
+        display: none;
+      }
     }
     &:before {
       left: $ribbon-horizontal-adjust;
