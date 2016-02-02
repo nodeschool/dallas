@@ -74,19 +74,22 @@
         &:before {
           content: 'Far Far Away...';
           font-style: italic;
+          margin-right: 5px;
+          float: left;
         }
       }
       &.js-relative-future-2 {
         .event-title {
           &:before {
-            content: 'Coming Soon →'
+            content: 'Coming Soon...';
           }
         }
       }
       &.js-relative-future-1 {
         .event-title {
           &:before {
-            content: 'Up Next →'
+            content: 'Up Next:';
+            color: #00bfff;
           }
         }
       }
@@ -95,7 +98,6 @@
     &.js-relative-today, &.js-relative-future {
       .event-title {
         a {
-          margin-left: 5px;
           display: inline-block;
         }
       }
@@ -137,6 +139,10 @@
       @media(max-width: $screen-md-max) {
         border-width: $ribbon-size-stacked;
         border-left-width: $ribbon-cutout-stacked;
+      }
+
+      @media(max-width: $screen-xs-max) {
+        display: none;
       }
     }
     &:before {
