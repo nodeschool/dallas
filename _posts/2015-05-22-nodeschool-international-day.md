@@ -1,7 +1,7 @@
 ---
 title: Nodeschool International Day
 sponsors:
-- addison-treehouse
+- addisonTreehouse
 - credera
 meetupId: 219510533
 ---
