@@ -2,10 +2,14 @@ credera:
   name: Credera
   url: https://www.credera.com
 
-addison-treehouse:
+addisonTreehouse:
   name: Addison Treehouse
   url: http://www.addisontreehouse.com/
 
 vinli:
   name: Vinli
   url: https://www.vin.li/
+
+devMountain:
+  name: DevMountain
+  url: https://devmounta.in/dallas
