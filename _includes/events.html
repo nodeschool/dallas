@@ -9,7 +9,7 @@
         <!-- the post event url is swapped in on current or past events in site.js -->
         <a class="js-relative-date-url" target="_blank" data-event-url="{{ site.baseurl }}{{ post.url }}"
           href="{{ site.data.urls.meetup }}/events/{{ post.meetupId }}">
-          {{ post.date | date_to_string}} - {{ post.title }}
+          {% include date.html date=post.date %} - {{ post.title }}
         </a>
       </h3>
 
