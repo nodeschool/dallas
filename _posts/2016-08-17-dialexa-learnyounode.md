@@ -1,5 +1,5 @@
 ---
-title: Markup with Markdown
+title: Learn You Node
 sponsors:
 - dialexa
 studyAbroad: true
@@ -8,7 +8,7 @@ meetupId: 232507189
 
 ## Tonight's featured workshopper
 
-- [learnyounode](https://github.com/workshopper/learnyounode) → earn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.
+- [learnyounode](https://github.com/workshopper/learnyounode) → learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.
 
 ## News
  - [hack the dot dallas](https://www.eventbrite.com/e/hack-the-dot-dallas-tickets-26849116430)
