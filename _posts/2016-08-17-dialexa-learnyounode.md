@@ -15,6 +15,7 @@ meetupId: 232507189
  - [Think before you Mongo](http://blog.runnable.com/post/149000201856/think-before-you-mongo)
  - [Keep spotlight from indexing node_modules](https://news.ycombinator.com/item?id=12209300#12209739)
  - [Create apps with no configuration](https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html)
+ - [Front Porch Conference](http://frontporch.io/dallas/) - October 24, 2016 ($150)
 
 ## Attendance
 
