@@ -19,5 +19,9 @@ theIronYard:
   url: https://www.theironyard.com/locations/dallas.html
 
 dialexa:
-  name: dialexa
+  name: Dialexa
   url: http://dialexa.com
+
+codingDojo:
+  name: Coding Dojo
+  url: http://www.codingdojo.com/
