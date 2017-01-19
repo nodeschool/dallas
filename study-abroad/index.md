@@ -1,5 +1,6 @@
 ---
 title: Study Abroad
+category: navigation
 ---
 
 ## Hosting a Nodeschool Dallas meetup
