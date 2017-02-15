@@ -14,7 +14,10 @@ npm install -g bacon-love
 ```
 
 ## News
-- [Mobile Twitter => Node.js, Express, React PWA](https://twitter.com/necolas/status/829128165314306048)
+- [Mobile Twitter](https://twitter.com/necolas/status/829128165314306048) → Now using Node.js, Express, and React PWA
+- [Music for Programming](https://musicforprogramming.net/)
+- [A General Theory of Reactivity](https://github.com/kriskowal/gtor)
+- [Mancy](http://mancy-re.pl/) → A cross platform NodeJS REPL application based on Electron and React frameworks
 
 ## Attendance
 
