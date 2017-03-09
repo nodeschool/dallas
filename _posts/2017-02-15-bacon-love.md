@@ -7,7 +7,7 @@ meetupId: 237437655
 
 ## Tonight's Featured Workshopper
 
-[bacon-love](https://github.com/evanlucas/learnyoumongo) → The Workshop for Functional Reactive Programming
+[bacon-love](https://github.com/mikaelbr/bacon-love) → The Workshop for Functional Reactive Programming
 
 ```bash
 npm install -g bacon-love
