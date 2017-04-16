@@ -25,3 +25,7 @@ dialexa:
 codingDojo:
   name: Coding Dojo
   url: http://www.codingdojo.com/
+
+tickerTags:
+  name: TickerTags
+  url: http://www.tickertags.com/
