@@ -29,3 +29,7 @@ codingDojo:
 tickerTags:
   name: TickerTags
   url: http://www.tickertags.com/
+
+toyotaConnected:
+  name: Toyota Connected
+  url: http://www.toyotaconnected.com/
