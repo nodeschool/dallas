@@ -79,6 +79,8 @@ body {
   }
 
   @media(max-width: $screen-xs-max) {
+    z-index: 1000;
+
     .social-link-container {
       width: 25%;
       margin-top: 10px;
