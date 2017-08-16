@@ -33,4 +33,4 @@ and others.
 
 Thanks as always to [Credera](http://www.credera.com) for food and drinks!
 
-![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo-new.png)
+![Credera Logo]({{ site.baseurl }}/assets/images/sponsors/large/credera-new.png)

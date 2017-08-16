@@ -88,7 +88,7 @@ Be friendly, ask questions, learn you some node!
 
 Thanks to [Credera](http://www.credera.com) for sponsoring!
 
-![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo.jpg)
+![Credera Logo]({{ site.baseurl }}/assets/images/sponsors/large/credera.jpg)
 
 ## Links
 

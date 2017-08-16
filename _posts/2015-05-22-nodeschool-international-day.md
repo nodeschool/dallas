@@ -36,8 +36,8 @@ Complete a workshopper or create an exercise, get the new Dallas sticker!
 
 Thanks to [Addison Treehouse](http://www.addisontreehouse.com) for providing the venue!
 
-![Addison Treehouse]({{ site.baseurl }}/assets/images/addison-treehouse.png)
+![Addison Treehouse]({{ site.baseurl }}/assets/images/sponsors/large/addison-treehouse.png)
 
 Thanks as always to [Credera](http://www.credera.com) for food and drinks!
 
-![Credera Logo]({{ site.baseurl }}/assets/images/credera-logo-new.png)
+![Credera Logo]({{ site.baseurl }}/assets/images/sponsors/large/credera-new.png)

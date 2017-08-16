@@ -31,4 +31,4 @@ Complete a workshopper, get a sticker from our collection!
 
 Thanks to [TickerTags](https://tickertags.com) for food, drinks, stickers and venue!
 
-![TickerTags Logo]({{ site.baseurl }}/assets/images/tickertags-logo.png)
+![TickerTags Logo]({{ site.baseurl }}/assets/images/sponsors/large/ticker-tags.png)
