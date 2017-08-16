@@ -35,4 +35,4 @@ Complete a workshopper, get a sticker from our collection!
 
 Thanks to [Toyota Connected](http://www.toyotaconnected.com/) for food, drinks, stickers, and venue!
 
-![Toyota Connected Logo]({{ site.baseurl }}/assets/images/toyota-connected-logo.png)
+![Toyota Connected Logo]({{ site.baseurl }}/assets/images/sponsors/large/toyota-connected.png)

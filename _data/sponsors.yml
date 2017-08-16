@@ -33,3 +33,7 @@ tickerTags:
 toyotaConnected:
   name: Toyota Connected
   url: http://www.toyotaconnected.com/
+
+tSystem:
+  name: T-System
+  url: http://www.tsystem.com/
