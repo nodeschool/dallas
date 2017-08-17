@@ -22,7 +22,7 @@ npm install
 - Get your [Nodevember](http://nodevember.org/) tickets
 - [Performance measurement with new V8 JIT compiler](https://www.nearform.com/blog/node-js-is-getting-a-new-v8-with-turbofan/)
 - [node.js blogging platform (basically wordpress.js) just had a major release](https://blog.ghost.org/1-0/)
-- [Event Loop explained](https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c Event Loop explained)
+- [Event Loop explained](https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c)
 - [Node.JS production best practices](http://goldbergyoni.com/checklist-best-practice-of-node-js-in-production/)
 - [npm is shutting down official IRC, has a list of good places to get npm support](http://blog.npmjs.org/post/163421115230/shutting-down-npm-irc)
 - [node cluster](https://nodejs.org/api/cluster.html)
