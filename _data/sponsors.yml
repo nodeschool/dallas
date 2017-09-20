@@ -37,3 +37,7 @@ toyotaConnected:
 tSystem:
   name: T-System
   url: http://www.tsystem.com/
+
+researchNow:
+  name: Research Now
+  url: https://www.researchnow.com/
