@@ -1,0 +1,29 @@
+{%- capture heading -%}
+{% if include.studyAbroad %}
+Study Abroad
+{% else %}
+Tonight's
+{% endif %}
+Sponsor{% if include.sponsors.size > 1 %}s{% endif %}
+{%- endcapture -%}
+
+{%- capture links -%}
+{% for sponsor in include.sponsors %}
+  {% assign sponsorData = site.data.sponsors[sponsor] %}
+  {% unless forloop.first %} | {% endunless %}
+  <a href="{{ sponsorData.url }}" target="_blank">
+    {{ sponsorData.name }}
+  </a>
+{% endfor %}
+{%- endcapture -%}
+
+<h2>{{heading}}</h2>
+
+<p>Thanks to {{ links | split: '|' | array_to_sentence_string }} for food, drinks, stickers, and venue!</p>
+
+{% for sponsor in include.sponsors %}
+  {% assign sponsorData = site.data.sponsors[sponsor] %}
+  <a href="{{ sponsorData.url }}" target="_blank">
+    <img alt="{{ sponsorData.name }}" src="{{ site.baseurl }}/assets/images/sponsors/large/{{ sponsorData.name | slugify }}.{{ include.logoExt | default: 'png' }}" />
+  </a>
+{% endfor %}

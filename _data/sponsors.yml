@@ -41,3 +41,11 @@ tSystem:
 researchNow:
   name: Research Now
   url: https://www.researchnow.com/
+
+signatureConsultants:
+  name: Signature Consultants
+  url: https://www.sigconsult.com/
+
+hilti:
+  name: Hilti
+  url: https://www.hilti.com/

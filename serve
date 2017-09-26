@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 
-bundle exec jekyll serve --baseurl=''
+port=${1:-4000}
+
+bundle exec jekyll serve --baseurl='' --port=$port
