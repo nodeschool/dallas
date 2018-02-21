@@ -26,7 +26,7 @@ libs:
   moment: "lib/moment-2.11.1.min.js"
   bootstrap: "lib/bootstrap-sass-3.3.6/assets"
 
-gems:
+plugins:
   - jekyll-coffeescript
 
 defaults:
