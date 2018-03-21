@@ -32,4 +32,4 @@ git clone https://github.com/gangstead/blockchain-workshop
 
 Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/issues/125).
 
-{% include sponsors-large.html sponsors=page.sponsors studyAbroad=page.studyAbroad logoExt='svg' %}
+{% include sponsors-large.html sponsors=page.sponsors studyAbroad=page.studyAbroad logoExt='jpg' %}
