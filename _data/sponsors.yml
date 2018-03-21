@@ -53,3 +53,7 @@ hilti:
 projectAtlas:
   name: Project Atlas
   url: https://www.projectatlas.com/
+
+parkhub
+  name: ParkHub
+  url: http://parkhub.com/
