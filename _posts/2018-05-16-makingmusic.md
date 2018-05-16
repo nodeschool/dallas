@@ -38,4 +38,4 @@ npm start
 
 Comment on [tonight's attendence issue](https://github.com/nodeschool/dallas/issues/131).
 
-{% include sponsors-large.html sponsors=page.sponsors studyAbroad=page.studyAbroad logoExt='svg' %}
+![Credera Logo]({{ site.baseurl }}/assets/images/sponsors/large/credera-new.png)
