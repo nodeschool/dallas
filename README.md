@@ -22,7 +22,7 @@ What's a NodeSchool?
 
 ![Nodeschool](assets/images/nodeschool-logo.png)
 
-###More about NodeSchool
+### More about NodeSchool
 * NodeUp Podcast discussing NodeSchool: http://nodeup.com/
 * Teach Your Way to Becoming a Better Programmer: https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968
 
